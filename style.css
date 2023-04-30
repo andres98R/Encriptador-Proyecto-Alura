@@ -1,0 +1,166 @@
+
+main{
+    background: #f3f5fc;
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+}
+.cabecera{
+    padding-top: 2em;
+}
+.primera-seccion{
+    padding-top: 15vh;
+    width: 60vw;
+}
+.segunda-seccion{
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.resultado{
+    
+    height: 95vh;
+    display: flex;
+    
+    justify-content: center;
+    align-content: center;
+    
+    width: 100%;
+
+}
+.prueba{
+    background: #FFFFFF;
+    border-radius: 2em;
+    box-shadow: 0em 0em 2em 0.1em #00000030;
+    width: 100%;
+    
+}
+
+
+main .prueba .contenedor-parrafo{
+    padding: 2em;
+}
+
+main .resultado .prueba {
+    background-color: #FFF;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    
+}
+
+main .resultado .contenedor-munieco img{
+    width: 100%;
+}
+
+.contenedor-parrafo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenedor-cajatexto  {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.cajatexto{
+    width: 70%;
+    resize: none;
+    background: transparent;
+    font-size: 2em;
+    height: 70vh;
+    border: none;
+}
+.cajatexto:focus{
+    outline: none;
+}
+.alerta{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.contenedor-botones{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 1em;
+    gap: 1em;
+    padding: .75em;
+    border-radius: 2em;
+    padding: .75em;
+    width: 100%;
+    top: 800px;
+    height: 80px;
+}
+.btn-encriptador {
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #0A3871;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+    border: 1px solid #0A3871;
+}
+
+.btn-desencriptador {
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+}
+
+.btncopiar {
+    height: 67px;
+    
+    border-radius: 24px;
+    background-color: #ffffff;
+    color: #0A3871;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    border: 1px solid #0A3871;
+    margin-bottom: 1em;
+    width: 200px;
+    
+}
+.ocultar {
+    display: none;
+}
+.contenedor-resultado p {
+    color: #495057;
+    font-size: 25px;
+    box-sizing: border-box; 
+    margin-left: 0.5em;
+    
+}
+
+
+main .prueba .contenedor-resultado {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+
+
+}
